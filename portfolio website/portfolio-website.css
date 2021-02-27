@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.portfolio-banner-section-container {
+    background-color: #191a1d;
+    height: 100vh;
+
+}
+
+#navbar-logo {
+    font-size: 24px;
+    color: white;
+    font-family: "Roboto";
+    font-weight: 700;
+    border-width: 3px;
+    border-color: #4b6cc1;
+    border-style: solid;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#link-item1 {
+    font-family: "Roboto";
+    color: white;
+    font-weight: 400;
+}
+
+#link-item2 {
+    font-family: "Roboto";
+    color: white;
+    font-weight: 400;
+}
+
+#link-item3 {
+    font-family: "Roboto";
+    color: white;
+    font-weight: 400;
+}
+
+#link-item4 {
+    font-family: "Roboto";
+    color: white;
+    font-weight: 400;
+}
+
+#link-item5 {
+    font-family: "Roboto";
+    color: white;
+    font-weight: 400;
+}
+
+.portfolio-banner-section-profile-image {
+    width: 280px;
+    height: 280px;
+    border-radius: 160px;
+
+}
+
+.portfolio-banner-section-heading {
+    font-size: 43px;
+    color: white;
+    font-weight: 300;
+}
+
+.portfolio-banner-name {
+    color: #4b6cc1;
+    font-family: "Roboto";
+}
+
+.portfolio-banner-section-description {
+    color: #9aa5b1;
+    font-size: 23px;
+    font-family: "Roboto";
+}
+
+.portfolio-banner-contact-button {
+    color: white;
+    background-color: #4b6cc1;
+    width: 130px;
+    height: 48px;
+    border-width: 0px;
+    border-radius: 8px;
+    font-family: "Roboto";
+}
+
+.portfolio-aboutme-section {
+    background-color: #323f4b;
+}
+
+.portfolio-aboutme-main-heading {
+    font-size: 28px;
+    font-weight: 600;
+    color: #cced00;
+    font-family: "Roboto";
+}
+
+.portfolio-aboutme-heading {
+    font-size: 38px;
+    color: white;
+    font-weight: 700;
+    font-family: "Roboto";
+}
+
+.portfolio-about-image {
+    width: 50%;
+}
+
+.portfolio-aboutme-description {
+    font-size: 18px;
+    color: #9aa5b1;
+}
+
+.portfolio-skills-section {
+    background-color: #1f2933;
+}
+
+.portfolio-skills-card {
+    background-color: #323f4b;
+    border-width: 0px;
+    border-radius: 8px;
+}
+
+.portfolio-skills-card-image {
+    width: 100px;
+}
+
+.portfolio-skills-card-heading {
+    font-size: 28px;
+    color: white;
+    font-weight: 600;
+    font-family: "Roboto";
+}
+
+.portfolio-projects-section {
+    background-color: #3e4c59;
+}
+
+.pw-projects-heading {
+    font-family: "Roboto";
+    font-size: 25px;
+    color: #cced00;
+    font-weight: 600;
+}
+
+.pw-projects-main-heading {
+    font-family: "Roboto";
+    font-size: 38px;
+    color: white;
+    font-weight: bold;
+}
+
+.pw-projects-card {
+    background-color: #323f4b;
+    border-width: 0px;
+    font-family: "Roboto";
+    border-radius: 10px;
+
+}
+
+.pw-card-heading {
+    font-size: 18px;
+    color: #9aa5b1;
+}
+
+.pw-card-main-heading {
+    font-size: 28px;
+    color: white;
+}
+
+.pw-card-description {
+    font-size: 24px;
+    color: #9aa5b1;
+}
+
+.pw-projects-link {
+    color: #cced00;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+.pw-services-section {
+    background-color: #52606d;
+}
+
+.pw-Services-heading {
+    font-size: 28px;
+    color: #cced00;
+}
+
+
+.pw-Services-main-heading {
+    font-family: "Roboto";
+    font-size: 38px;
+    color: white;
+    font-weight: bold;
+}
+
+.pwservices-projects-card {
+    background-color: #323f4b;
+    border-width: 0px;
+    font-family: "Roboto";
+    border-radius: 10px;
+
+}
+
+.pws-card-image {
+    width: 60px;
+}
+
+.pwservices-card-main-heading {
+    font-size: 25px;
+    color: white;
+}
+
+.pwservices-card-description {
+    font-size: 24px;
+    color: #9aa5b1;
+}
+
+.pw-workdone-section {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-work-done-bg.png");
+    background-size: cover;
+
+}
+
+.pw-workdone-icon {
+    font-size: 0px;
+    color: white;
+
+}
+
+.pwwd-hr-line {
+    background-color: white;
+    text-align: left;
+    width: 60px;
+
+
+}
+
+.pw-workdone-count {
+    font-size: 35px;
+    color: white;
+    font-family: "Roboto";
+    font-weight: 600;
+
+
+}
+
+.pw-workdone-section-description {
+    font-family: "Roboto";
+    font-size: 15px;
+    color: white;
+    width: 100px;
+
+}
+
+.pw-testmonials-section {
+    background-color: #1f2933;
+}
+
+.pw-Testmonials-heading {
+    font-size: 28px;
+    color: #cced00;
+}
+
+
+.pw-Testmonials-main-heading {
+    font-family: "Roboto";
+    font-size: 38px;
+    color: white;
+    font-weight: bold;
+}
+
+.pw-testmonials-card {
+    background-color: #323f4b;
+}
+
+.pw-testmonials-card-content {
+    font-family: "Roboto";
+}
+
+.pw-testmonials-card-image {
+    border-radius: 250px;
+    height: 110px;
+    width: 110px;
+}
+
+.pw-testmonials-card-paragraph {
+    color: #9aa5b1;
+    font-size: 18px;
+}
+
+.pw-testmonials-card-heading {
+    color: white;
+    font-size: 23px;
+}
+
+.pw-footer-sction {
+    background-color: #001c32;
+}
+
+.pw-footer-profile-image {
+    height: 90px;
+    width: 90px;
+    border-radius: 60px;
+}
+
+.pw-footer-heading {
+    color: #cced00;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: "Roboto";
+}
+
+.pw-footer-description {
+    color: #9aa5b1;
+    font-size: 20px;
+    font-family: "Roboto";
+}
+
+.pw-fooer-icon {
+    font-size: 23px;
+    color: #9aa5b1;
+}
+
+.hr-line {
+    background-color: #5a7184;
+    height: 1px;
+
+}
